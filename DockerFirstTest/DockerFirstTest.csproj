@@ -13,4 +13,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\ML.NET\DockerFirstTest\DockerFirstTest\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\ML.NET\DockerFirstTest\DockerFirstTest\.editorconfig" />
+  </ItemGroup>
+
 </Project>
