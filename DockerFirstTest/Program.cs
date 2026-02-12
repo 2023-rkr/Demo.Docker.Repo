@@ -13,7 +13,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI(_=>_.SwaggerEndpoint("/swagger/index.html", "Home Page"));
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
