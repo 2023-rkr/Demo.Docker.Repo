@@ -18,7 +18,7 @@ namespace DockerFirstTest.Controllers
         public IActionResult Index()
         {
             if (_hostEnvironment.IsDevelopment())
-                return new RedirectResult("~/swagger/Index.html");
+                return new RedirectResult("~/swagger");
             return View();
         }
     }
